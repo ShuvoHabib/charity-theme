@@ -1,0 +1,25 @@
+{
+  "name": "cefalo-project",
+  "version": "1.0.0",
+  "description": "An assignment for Cefalo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shuvo_habib@bitbucket.org/shuvo_habib/cefalo-project.git"
+  },
+  "keywords": [
+    "Cefalo"
+  ],
+  "author": "Shuvo Habib",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/shuvo_habib/cefalo-project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1"
+  }
+}
