@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Open Charity</title>
         <!-- Bootstrap -->
-        <link href="" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -16,19 +17,29 @@
     </head>
     <body>
         <header class="header">
-            <a class="header__logo" href="#">Open Charity</a>
-            <nav class="header__nav">
-                <ul>
-                    <li><a href="#">About Open Charity</a></li>
-                    <li><a href="#">The Blog</a></li>
-                    <li><a href="#">Join us</a></li>
-                </ul>
-            </nav>
+            <div class="header-top">
+                <a class="header-top__logo" href="#">
+                    <img src="images/logo.png" alt="Open Charity">
+                </a>
+                <nav class="header-top__nav">
+                    <ul>
+                        <li class="nav-list">
+                            <a href="#" class="nav-list__link">About Open Charity</a>
+                        </li>
+                        <li class="nav-list">
+                            <a href="#" class="nav-list__link">The Blog</a>
+                        </li>
+                        <li class="nav-list">
+                            <a href="#" class="nav-list__link nav-list__link--btn">Join us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
             <div class="header-section">
                 <h1 class="header-section__title">Sharing Ideas For Charities</h1>
                 <h3 class="header-section__subtitle">Many charities’ goals are similar, as is the functionality we require, but little shared working takes place.</h3>
                 <p class="header-section__paragraph">By working together, driving shared areas of interest and influencing open source developments we can bring efficiencies, improve the digital experience for our users, and have great impact.</p>
-                <h4 class="header-section__subtitle">
+                <h4 class="header-section__subtitle header-section__subtitle--spacing">
                     Together we can make a bigger diference.
                 </h4>
             </div>
@@ -130,6 +141,5 @@
                 This site was built as a collaboration between <a href="#">Manifesto Digital</a> and <a href="#"> Compucorp</a>
             </div>
         </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </body>
 </html>
