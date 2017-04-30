@@ -1,0 +1,111 @@
+
+/* -------------------------------------------------
+/* width <= 1300px
+/* -------------------------------------------------*/
+
+
+@media only screen and (max-width: 1300px) {
+ .header__top, .event{
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+ .owl-prev,.owl-next {
+  position: static !important;
+ }
+ .owl-theme .owl-nav {
+    margin-top: 30px;
+  }
+  .blog-post__para {
+    width: 100%;
+  }
+  .blog-post__col{
+      text-align: center; 
+    }
+}
+
+/* -------------------------------------------------
+/* width <= 1200px
+/* -------------------------------------------------*/
+@media only screen and (max-width: 1200px) {
+    .mission__goal.col-m4 {
+      max-width: 450px;
+      margin: 0 auto 100px;
+      float: none;
+    }
+    .owl-carousel {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+}
+
+/* -------------------------------------------------
+/* width <= 800px
+/* -------------------------------------------------*/
+@media only screen and (max-width: 800px) {
+    .col-m4{
+      width: 100%;
+      float:initial;
+      margin: 0 auto 40px;
+    }
+
+    .mission__goal.col-m4{
+      margin-bottom: 70px;
+    }
+    .mission__goal:not(:last-child) {
+      margin-right: auto;
+    }
+    .event {
+        margin: 0 auto 35px;
+        height: 150px;
+        padding-top: 19px;
+        text-align: center;
+    }
+    .event__next,.event__register {
+      float: none;
+    }
+    
+    .blog-post__para {
+      margin-bottom: 30px;
+    }
+  }
+
+/* -------------------------------------------------
+/* width <= 667px
+/* -------------------------------------------------*/
+@media only screen and (max-width: 667px) {
+  .header{
+    &__logo{
+      display: block;
+      img{
+          width: 150px;
+          display: block;
+          margin: 15px auto;
+      }
+    }
+    &__nav{
+      float: initial;
+      margin-top: 0px;
+      text-align: center;
+      margin-bottom: 20px;
+      .nav{
+          float: initial;
+          display: inline-block;
+          margin-left: 10px;
+      }
+    }
+  }
+}
+
+/* -------------------------------------------------
+/* width <= 600px
+/* -------------------------------------------------*/
+@media only screen and (max-width: 400px) {
+  .header__nav .nav__link {
+    font-size: 10px;
+  }
+  .header__nav .nav {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+
+}
