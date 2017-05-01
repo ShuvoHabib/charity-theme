@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Open Charity</title>
-        <!-- Bootstrap -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="css/owl.carousel.min.css" rel="stylesheet">
@@ -21,9 +20,10 @@
     <body>
         <header class="header">
             <div class="header__top">
-                <a class="header__logo" href="#">
-                    <img src="images/logo.png" alt="Open Charity">
+                <a class="header__logo" href="">
+                    <img alt="Compucorp" src="<?php print base_path() . drupal_get_path('theme', 'app') . 'sites/all/themes/app/images/logo.png'; ?>"> 
                 </a>
+         
                 <nav class="header__nav">
                     <ul>
                         <li class="nav">
@@ -63,20 +63,20 @@
         <div class="collaborate clearfix">
             <h2 class="block-title">Get Involved</h2>
             <div class="collaborate__block col-m4">
-                <img src="images/logoicon1.png" class="collaborate__logo collaborate__logo--spacing" alt="Meetup">
+                <img src="<?php print base_path() . drupal_get_path('theme', 'app') . 'sites/all/themes/app/images/logoicon1.png'; ?>" class="collaborate__logo collaborate__logo--spacing" alt="Meetup">
                 <h3 class="collaborate__subtitle">We do meetings</h3> 
                 <p class="collaborate__paragraph">We organise our meetings through the OpenCharity MeetUp group</p>
                 <a href="" class="collaborate__link">MeetUp group</a>
             </div>
             <div class="collaborate__block col-m4">
-                <img src="images/logoicon2.png" class="collaborate__logo" alt="Slack">
+                <img src="<?php print base_path() . drupal_get_path('theme', 'app') . 'sites/all/themes/app/images/logoicon2.png'; ?>" class="collaborate__logo" alt="Slack">
                 <h3 class="collaborate__subtitle">We Collaborate</h3>
                 <p class="collaborate__paragraph">OpenCharity have a slack group for daily collaboration
                 </p>
                 <a href="" class="collaborate__link">Slack Group</a>
             </div>
             <div class="collaborate__block col-m4">
-                <img src="images/logoicon3.png" class="collaborate__logo" alt="We Share">
+                <img src="<?php print base_path() . drupal_get_path('theme', 'app') . 'sites/all/themes/app/images/logoicon3.png'; ?>" class="collaborate__logo" alt="We Share">
                 <h3 class="collaborate__subtitle">We Share</h3>
                 <p class="collaborate__paragraph">We have a Google Group set up to share tools and documents
                 </p>
@@ -117,22 +117,22 @@
                 <h2 class="block-title">Our Members</h2>
                 <div class="owl-carousel members__logo owl-theme">
                     <div class="members__item">
-                        <img src="images/slide-logo1.png" alt="">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'app') . 'sites/all/themes/app/images/slide-logo1.png'; ?>" alt="">
                     </div>
                     <div class="members__item">
-                        <img src="images/slide-logo2.png" alt="">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'app') . 'sites/all/themes/app/images/slide-logo2.png'; ?>" alt="">
                     </div>
                     <div class="members__item">
-                        <img src="images/slide-logo3.png" alt="">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'app') . 'sites/all/themes/app/images/slide-logo.png'; ?>" alt="">
                     </div>
                     <div class="members__item">
-                        <img src="images/slide-logo.png" alt="">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'app') . 'sites/all/themes/app/images/slide-logo.png'; ?>" alt="">
                     </div>
                     <div class="members__item">
-                        <img src="images/slide-logo2.png" alt="">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'app') . 'sites/all/themes/app/images/slide-logo2.png'; ?>" alt="">
                     </div>
                     <div class="members__item">
-                        <img src="images/slide-logo.png" alt="">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'app') . 'sites/all/themes/app/images/slide-logo.png'; ?>" alt="">
                     </div>
                 </div>
             </div>
@@ -162,16 +162,31 @@
                     <p class="blog-post__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     <span class="blog-post__date">14 Nov 2014</span>
                 </div>
+                <div class="blog-post__col">
+                    <h3 class="blog-post__title">Online Donations Special...</h3>
+                    <p class="blog-post__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <span class="blog-post__date">14 Nov 2014</span>
+                </div>
+                <div class="blog-post__col">
+                    <h3 class="blog-post__title">Online Donations Special...</h3>
+                    <p class="blog-post__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <span class="blog-post__date">14 Nov 2014</span>
+                </div>
+                <div class="blog-post__col">
+                    <h3 class="blog-post__title">Online Donations Special...</h3>
+                    <p class="blog-post__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <span class="blog-post__date">14 Nov 2014</span>
+                </div>
             </div>
         </div>
-        <footer class="clearfix">
+        <footer class="clearfix footer">
             <div class="footer__social">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-google-plus"></i></a>
             </div>
             <div class="footer__copyright">
-                This site was built as a collaboration between <a href="#">Manifesto Digital</a> and <a href="#"> Compucorp</a>
+                This site was built as a collaboration between <a href="#" class="footer__copyright--link">Manifesto Digital</a> and <a href="#" class="footer__copyright--link"> Compucorp</a>
             </div>
         </footer>
 

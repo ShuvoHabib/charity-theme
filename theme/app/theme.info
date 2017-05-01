@@ -1,0 +1,19 @@
+name = app
+description = A multi-column theme which can be configured to modify colors and switch between fixed and fluid width layouts. 
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/owl.carousel.min.css
+stylesheets[all][] = css/owl.theme.default.css
+scripts[jquery] = js/jquery.min.js
+scripts[owl] = js/owl.carousel.min.js
+scripts[] = js/main.js
+
+font-awesome:
+  remote: https://fortawesome.github.io/Font-Awesome/
+  version: 4.5.0
+  license:
+    name: MIT
+    url: https://fortawesome.github.io/Font-Awesome/license/
+    gpl-compatible: true

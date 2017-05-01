@@ -33,10 +33,10 @@
 	    margin: 0 auto;
 	}
 	&__logo{
-		margin-top: 25px;
+		margin-top: 30px;
     	display: inline-block;
 		img{
-			width: 192px;
+			width: 150px;
 		}
 	}
 	&__nav{
@@ -109,6 +109,7 @@
 		&-event{
 			font-size: 17px;
 			color: #61c0bd;
+			font-weight: 600;
 		}
 	}
 	&__timing{
@@ -137,10 +138,12 @@
  ============================================== */
 
 .collaborate{
+	max-width: 1110px;
+	margin: 0 auto;
 	&__block{
 		text-align: center;
 		margin-top: 35px;
-		margin-bottom: 35px;
+		margin-bottom: 45px;
 	}
 	&__logo{
 		width: 130px;
@@ -266,7 +269,7 @@
 
 .blog-post{
 	max-width: 1110px;
-	margin: 0 auto;
+	margin: 0 auto 35px;
 	&__col{
 		margin-top: 20px;
 	}
@@ -291,9 +294,51 @@
         float: left !important;
         vertical-align: initial;
     }
+    .owl-prev {
+	    position: absolute;
+	    left: -70px;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+	.owl-next {
+	    position: absolute;
+	    right: -70px;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+	.owl-theme .owl-nav [class*='owl-'] {
+	    color: #5fc0c3;
+	    font-size: 30px;
+	    background: transparent;
+	}
 }
 
 
  /* ============================================
   					Footer
  ============================================== */
+
+.footer{
+ 	background: #454850;
+ 	text-align: center;
+ 	&__social{
+ 		max-width: 1110px;
+	    margin: 0 auto;
+ 		padding-top: 28px;
+ 		padding-bottom: 28px;
+ 		border-bottom: 1px solid #4e525b;
+ 		a{
+ 			color: #61c0bd;
+ 			margin-left: 20px;
+ 		}
+ 	}
+ 	&__copyright{
+ 		color: #979eb1;
+ 		font-size: 14px;
+ 		padding-top: 21px;
+ 		padding-bottom: 21px;
+ 		&--link{
+ 			color: #5dc0c9;
+ 		}
+ 	}
+ }

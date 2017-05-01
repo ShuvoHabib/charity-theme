@@ -13,7 +13,7 @@ $(document).ready(function () {
         autoplayTimeout:1000,
         responsive:{
             0:{
-                items:1
+                items:2
             },
             600:{
                 items:3
@@ -33,17 +33,25 @@ $(document).ready(function () {
         loop: true,
         margin: 30,
         nav: true,
+        pagination:false,
+        navigation:true,
         dots: false,
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
         responsiveClass: true,
         responsive: {
             0: {
                 items: 1
             },
             600: {
-                items: 3
+                items: 1
             },
             1000: {
+                items: 3
+            },
+            1200: {
+                items: 3
+            },
+            1300: {
                 items: 4
             }
         }
